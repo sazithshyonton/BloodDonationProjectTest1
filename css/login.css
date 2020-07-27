@@ -1,0 +1,48 @@
+.lcontainer{
+  width: 40%;
+  background: #EBEDEF;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+.ltext{
+  text-align: center;
+  padding-top: 30px;
+}
+.em{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn2{
+  margin-top: 20px;
+  margin-left: 50%;
+  margin-bottom: 20px;
+  background: #4D57DE;
+    border: 1px solid #4D57DE;
+    border-radius: 15%;
+    color: #FFFFFF;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.btn2:hover{
+  cursor: pointer;
+  background: red;
+  border: 1px solid #123456;
+}
+.h3text{
+  text-align: center;
+  color: blue;
+}
+.btn3{
+  margin-top: 10px;
+  margin-left: 40%;
+  margin-bottom: 20px;
+  background: #4D57DE;
+    border: 1px solid #4D57DE;
+    border-radius: 15%;
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en">
+	<title>Search</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/search.css">
+</head>
+<body>
+	<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="search.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Search Donar</a>
+    <a href="emergency.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Emergency Blood Request</a>
+    <a href="help.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">help Desk</a>
+    <a href="signUp.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Become a Donar</a>
+    <a href="login.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Login</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="search.html" class="w3-bar-item w3-button w3-padding-large">Search Donar</a>
+    <a href="emergency.html" class="w3-bar-item w3-button w3-padding-large">Emergency Blood Request</a>
+    <a href="help.html" class="w3-bar-item w3-button w3-padding-large">help Desk</a>
+    <a href="signUp.html" class="w3-bar-item w3-button w3-padding-large">Become a Donar</a>
+  </div>
+  <div class="lcontainer">
+      <h2 class="ltext">Search Donar</h2>
+      <form>
+        <label for="fname" style="margin-left: 5%;">Address</label>
+        <input class="em" type="text" name="" placeholder="Location">
+
+        <label for="fname" style="margin-left: 5%;">  Blood Type</label>
+        <select id="btype" name="btype">
+        <option value="aPositive">A RhD positive (A+)</option>
+        <option value="aNegative">A RhD negative (A-)</option>
+        <option value="bPositive">B RhD positive (B+)</option>
+        <option value="bNegative">B RhD negative (B-)</option>
+        <option value="oPositive">O RhD positive (O+)</option>
+        <option value="oNegative">O RhD negative (O-)</option>
+        <option value="abPositive">AB RhD positive (AB+)</option>
+        <option value="abNegative">AB RhD negative (AB-)</option>
+       </select>
+
+        <label for="fname" style="margin-left: 5%;margin-top: 5%;">Date</label>
+        <input class="em" type="date" name="" placeholder="Date">
+
+        <label for="fname" style="margin-left: 5%;">Time</label>
+        <input class="em" type="time" name="" placeholder="time">
+
+        <button class="btn2">Search</button>
+
+      </form>
+      
+    </div>
+</body>
+</html>

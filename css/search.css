@@ -1,0 +1,27 @@
+.lcontainer{
+
+  width: 40%;
+  background: #EBEDEF;
+  margin: 0 auto;
+  border-radius: 10%;
+  height: 500px;
+}
+.ltext{
+  text-align: center;
+  padding-top: 30px;
+}
+.em{
+  margin-top: 5px;
+}
+.btn2{
+  margin-top: 40px;
+  margin-left: 40%;
+  margin-bottom: 15px;
+  background: #4D57DE;
+    border: 1px solid #4D57DE;
+    border-radius: 15%;
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
